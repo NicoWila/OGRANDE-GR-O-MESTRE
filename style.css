@@ -1,0 +1,55 @@
+body {
+    color: black;
+    background:rgb(138, 130, 130);
+    font-family: "Eagle Lake", serif;
+}
+
+header {
+    border-bottom: solid 4px rgb(238, 227, 71);
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(238, 227, 71)
+}
+
+.chamada {
+    background: rgb(138, 130, 130);
+    padding-bottom: 50px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 100px;
+}
+
+h1 {
+    font-size: 27px;
+}
+p1 {
+    font-size: 17,5px;
+}
+img {
+    height: 200px;
+  }
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    justify-content: center;
+}
+
+.categoria {
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+} 
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
